@@ -1,0 +1,97 @@
+/* homePage.css */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Style the container for the entire home page */
+.home_page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  
+  /* Style the page title */
+  h4 {
+    padding: 5px 25px 5px 25px;
+    font-size: 70px;
+    color: rgb(181, 196, 16);
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #08080094;
+  }
+  
+  /* Style the user's name */
+  span {
+    color: #007acc;
+  }
+  
+  /* Style the link to the shopping cart */
+  #link_cart {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding to your preference */
+    font-size: 30px; /* Adjust font size as needed */
+    text-align: center;
+    text-decoration: none;
+    background-color: #807a02; /* Button background color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  Link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the logout button */
+  button {
+    background-color: #d55900;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Hover effect for the logout button */
+  button:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .home_page {
+      padding: 15px;
+    }
+  
+    /* Adjust font sizes and margins for smaller screens */
+    h4 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+  
+    span {
+      font-size: 1rem;
+    }
+  
+    Link {
+      font-size: 1rem;
+      margin: 15px 0;
+    }
+  
+    button {
+      font-size: 1rem;
+      margin-top: 15px;
+      padding: 8px 16px;
+    }
+  }
+  

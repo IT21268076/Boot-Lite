@@ -1,0 +1,87 @@
+
+body{
+    font-size: 30px;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Style the list container */
+ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Style each list item (football boot) */
+  li {
+    display: flex;
+    color: #f5f5f5;
+    font-size: larger;
+    font-weight: 400;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #f7ff01;
+    background-color: #212121e7;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Hover effect for list items */
+  li:hover {
+    background-color: #858b026b;
+  }
+  
+  /* Style the football boot details */
+  li > div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style the football boot brand and model */
+  li h3 {
+    font-size: 1.2rem;
+    margin: 0 0 5px;
+  }
+  
+  /* Style the football boot price */
+  li p {
+    font-size: 1rem;
+    color: #777;
+    margin: 0;
+  }
+  
+  /* Style the "Add to Cart" button */
+  li button {
+    background-color: #ffd90388;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Hover effect for the button */
+  li button:hover {
+    background-color: #f9a200;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    li {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 15px;
+    }
+  
+    /* Adjust spacing for football boot details */
+    li > div {
+      margin-top: 10px;
+    }
+  
+    /* Center-align the button */
+    li button {
+      align-self: center;
+      margin-top: 10px;
+    }
+  }
+  

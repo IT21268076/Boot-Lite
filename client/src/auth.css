@@ -1,0 +1,98 @@
+/* *,
+::before,
+::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+*/
+label {
+  font-size: 1.2rem;
+  color: #656262;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h5{
+    margin-top: -150px ;
+    margin-bottom: 80px;
+    padding-left: 80px;
+    color: #ffd000;
+    border: 1px solid white;
+    background-color: #00000088;
+}
+
+.form_container_ls {
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.form_container_ls > h2 {
+    font-size: 25px;
+  margin-block: 1rem;
+  padding-block: 0.6rem;
+  color: rgb(4, 4, 0);
+}
+
+.form_container_ls > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.form_container_ls div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.form_container_ls input {
+  border: none;
+  padding: 0.5rem;
+  border-bottom: 1px solid gray;
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.form_container_ls input::placeholder {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.form_container_ls button {
+  background-color: rgba(0, 0, 0, 0.858);
+  color: #ffd000;
+  border: none;
+  padding: 0.6rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+span .link_signup {
+    font-size: 15px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.ac{
+    font-size: 15px;
+    
+}
+ 
