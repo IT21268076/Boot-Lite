@@ -55,6 +55,7 @@ router.get("/api/cart-items", async (req, res) => {
       path: 'footballBootId',
       model: 'Boot'
     });
+    console.log(cartItems)
 
     const cartItemsWithBootDetails = cartItems.map(item => ({
       _id: item._id,

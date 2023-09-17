@@ -25,7 +25,7 @@ const FootballBootList = () => {
     <ul>
       {footballBoots.map((footballBoot) => (
         <li key={footballBoot._id}>
-          {footballBoot.brand} {footballBoot.model} - {footballBoot.price}
+          {footballBoot.brand} {footballBoot.model} -  $ {footballBoot.price}
           <button onClick={() => handleAddToCart(footballBoot)}>Add to Cart</button>
         </li>
       ))}

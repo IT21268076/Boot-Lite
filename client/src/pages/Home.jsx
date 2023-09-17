@@ -42,7 +42,7 @@ const Home = () => {
     <>
       <div className="home_page">
         <h4>
-          BOOT LITE <span>{username}</span>
+          BOOT <span>LITE</span>
         </h4>
         <FootballBootList/>
         
