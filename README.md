@@ -11,7 +11,7 @@ To run the "BootLite" application locally, follow these instructions:
 ### Prerequisites
 
 - Node.js and npm installed on your system.
-- MongoDB or MySQL database server set up (with credentials and connection URL).
+- MongoDB database server set up (with credentials and connection URL).
 
 ### Installation
 
